@@ -30,12 +30,12 @@ This `README.md` serves as the **documentation hub** for contributors and develo
 ## 🧭 Quick Navigation
 
 ```
-┌─────────────────────────────────────────────────────────────┐
+┌──────────────────────────────────────────────────────────────┐
 │                    DOCUMENTATION MAP                         │
-├─────────────────────────────────────────────────────────────┤
+├──────────────────────────────────────────────────────────────┤
 │  📖 Core Documents  │  🎓 Methodologies  │  🛠️ Tools        │
 │  📝 Setup Guides    │  🔒 Security       │  👥 Community    │
-└─────────────────────────────────────────────────────────────┘
+└──────────────────────────────────────────────────────────────┘
 ```
 
 ### 📖 Core Documentation
@@ -259,11 +259,11 @@ See [ROADMAP.md](ROADMAP.md) for detailed timeline.
 ╔═══════════════════════════════════════════════════════════╗
 ║  ETHICAL OFFENSIVE SECURITY PRINCIPLES                    ║
 ╠═══════════════════════════════════════════════════════════╣
-║  ✓ Authorization Required Before All Testing             ║
-║  ✓ Responsible Disclosure for Vulnerabilities            ║
-║  ✓ No Malicious Code or Backdoors                        ║
-║  ✓ OPSEC Protection for Team Members                     ║
-║  ✓ Compliance with Laws and Regulations                  ║
+║  ✓ Authorization Required Before All Testing              ║
+║  ✓ Responsible Disclosure for Vulnerabilities             ║
+║  ✓ No Malicious Code or Backdoors                         ║
+║  ✓ OPSEC Protection for Team Members                      ║
+║  ✓ Compliance with Laws and Regulations                   ║
 ╚═══════════════════════════════════════════════════════════╝
 ```
 
@@ -343,13 +343,13 @@ If you find S1BGr0up valuable:
 ╔═══════════════════════════════════════════════════════════════╗
 ║  "Good documentation is the foundation of good software."     ║
 ║                                                               ║
-║  Remember: With great power comes great responsibility.      ║
-║  Stay curious. Stay ethical. Stay legal.                     ║
+║  Remember: With great power comes great responsibility.       ║
+║  Stay curious. Stay ethical. Stay legal.                      ║
 ║                                                               ║
-║  S1BGr0up - Building the Future of Offensive Security        ║
+║  S1BGr0up - Building the Future of Offensive Security         ║
 ╚═══════════════════════════════════════════════════════════════╝
 ```
-
+**🔐 Security is not a product, but a process**
 ---
 
 **Made with ❤️ and 0days by the S1BGr0up collective**
