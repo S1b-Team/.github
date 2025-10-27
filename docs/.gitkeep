@@ -1,0 +1,9 @@
+# Documentation Directory
+
+Knowledge base and research documentation.
+
+## Structure
+
+- `methodologies/` - Red Team methodologies and playbooks
+- `writeups/` - CTF writeups and engagement reports
+- `research/` - Security research and analysis papers

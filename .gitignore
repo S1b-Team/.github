@@ -1,0 +1,310 @@
+# S1BGr0up - Security Project .gitignore
+
+# ========================================
+# CRITICAL: Credentials & Secrets
+# ========================================
+*.key
+*.pem
+*.p12
+*.pfx
+*.cer
+*.crt
+*.der
+*_rsa
+*_rsa.pub
+*_dsa
+*_ed25519
+id_rsa*
+id_dsa*
+id_ecdsa*
+*.pgp
+*.gpg
+*.asc
+
+# Environment files with secrets
+.env
+.env.*
+!.env.example
+*.secret
+secrets.yml
+secrets.json
+credentials.json
+auth.json
+config.secret.*
+
+# API Keys and tokens
+*.token
+*.api-key
+api_keys.txt
+tokens.txt
+.secrets/
+
+# ========================================
+# Security Tools Output
+# ========================================
+# Nmap
+*.gnmap
+*.nmap
+*.xml
+
+# Metasploit
+*.rc
+*.msf
+.msf4/
+loot/
+logs/
+
+# Burp Suite
+*.burp
+burp_*.xml
+
+# SQLMap
+sqlmap_output/
+*.sqlmap
+
+# Hydra/Medusa
+*.restore
+
+# Wordlists (large files)
+wordlists/
+*.lst
+*.txt.gz
+
+# Exploit outputs
+exploits/output/
+*.exploit
+payloads/compiled/
+
+# Reverse shells and backdoors
+shells/
+backdoors/
+*.reverse
+*.bind
+
+# Network captures
+*.pcap
+*.pcapng
+*.cap
+traffic_*.log
+
+# Screenshots and evidence
+screenshots/
+evidence/
+screen_*.png
+capture_*.jpg
+
+# ========================================
+# System & IDE
+# ========================================
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.cache/
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+.vs/
+*.code-workspace
+
+# JetBrains
+.idea/
+*.iws
+*.ipr
+
+# Vim
+*.swp
+*.swo
+.netrwhist
+
+# ========================================
+# Programming Languages
+# ========================================
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+vendor/
+
+# Rust
+target/
+Cargo.lock
+**/*.rs.bk
+
+# C/C++
+*.o
+*.a
+*.out
+*.obj
+*.elf
+*.bin
+*.hex
+
+# JavaScript/Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.npm
+.eslintcache
+
+# Ruby
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/spec/examples.txt
+/test/tmp/
+/test/version_tmp/
+/tmp/
+.bundle/
+vendor/bundle
+
+# ========================================
+# Compiled & Binary Files
+# ========================================
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.dylib
+*.elf
+*.bin
+*.ko
+*.obj
+*.deb
+*.rpm
+
+# ========================================
+# Logs & Databases
+# ========================================
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+logs/
+*.log.*
+access.log
+error.log
+
+# ========================================
+# Temporary & Build Files
+# ========================================
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+*.old
+*.orig
+build/
+dist/
+out/
+
+# ========================================
+# Docker & Containers
+# ========================================
+.dockerignore
+docker-compose.override.yml
+*.dockerfile.swp
+
+# ========================================
+# Git & Version Control
+# ========================================
+*.patch
+*.diff
+*.orig
+*.rej
+
+# ========================================
+# Archives (might contain sensitive data)
+# ========================================
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.bz2
+*.xz
+
+# ========================================
+# Documentation Builds
+# ========================================
+docs/_build/
+site/
+.mkdocs/
+
+# ========================================
+# Testing & CI/CD
+# ========================================
+.coverage
+coverage/
+.pytest_cache/
+.tox/
+test-results/
+junit.xml
+
+# ========================================
+# Custom Project Exclusions
+# ========================================
+# Add project-specific ignores below
+research/private/
+notes/personal/
+ops/live/
+targets/
+victims/
+compromised/
+exfil/
+
+# Keep directory structure but ignore contents
+!.gitkeep

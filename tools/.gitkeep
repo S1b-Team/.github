@@ -1,0 +1,11 @@
+# Tools Directory
+
+This directory contains offensive security tools organized by MITRE ATT&CK phases.
+
+## Structure
+
+- `reconnaissance/` - Information gathering and enumeration tools
+- `exploitation/` - Exploit development and delivery tools
+- `post-exploitation/` - Post-compromise activities and pivoting
+- `persistence/` - Maintaining access mechanisms
+- `evasion/` - Defense evasion and anti-forensics tools

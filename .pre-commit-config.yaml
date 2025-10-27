@@ -1,0 +1,67 @@
+# Pre-commit hooks for S1BGr0up
+# Install: pip install pre-commit
+# Setup: pre-commit install
+
+repos:
+  # Secret detection
+  - repo: https://github.com/gitleaks/gitleaks
+    rev: v8.18.2
+    hooks:
+      - id: gitleaks
+
+  # Detect private keys
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      - id: detect-private-key
+      - id: check-added-large-files
+        args: ['--maxkb=1000']
+      - id: check-merge-conflict
+      - id: check-yaml
+      - id: check-json
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+      - id: mixed-line-ending
+
+  # Python-specific
+  - repo: https://github.com/psf/black
+    rev: 24.2.0
+    hooks:
+      - id: black
+        language_version: python3
+
+  - repo: https://github.com/pycqa/flake8
+    rev: 7.0.0
+    hooks:
+      - id: flake8
+        args: ['--max-line-length=120']
+
+  # Security linting for Python
+  - repo: https://github.com/PyCQA/bandit
+    rev: 1.7.7
+    hooks:
+      - id: bandit
+        args: ['-ll', '-i']
+        files: .py$
+
+  # Markdown linting
+  - repo: https://github.com/igorshubovych/markdownlint-cli
+    rev: v0.39.0
+    hooks:
+      - id: markdownlint
+        args: ['--fix']
+
+  # Shell script checks
+  - repo: https://github.com/shellcheck-py/shellcheck-py
+    rev: v0.9.0.6
+    hooks:
+      - id: shellcheck
+
+# Custom hook for additional security checks
+  - repo: local
+    hooks:
+      - id: check-credentials
+        name: Check for credentials in code
+        entry: bash -c 'if grep -rE "(password|passwd|pwd|token|api[_-]?key|secret|credential)\\s*=\\s*[\"'\''][^\"'\'']+[\"'\'']" --include="*.py" --include="*.sh" --include="*.js" --exclude-dir=".git" .; then echo "Potential credentials found!"; exit 1; fi'
+        language: system
+        pass_filenames: false
