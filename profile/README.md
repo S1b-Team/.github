@@ -96,12 +96,20 @@ S1BGr0up is a **cybersecurity collective** specializing in **Red Team operations
 
 ## 📚 Resources & Knowledge Base
 
-- 📖 **Methodologies**: Red Team TTPs and offensive security workflows
-- 🎓 **Training Materials**: Hands-on labs and challenge environments  
-- 📝 **Research Papers**: Vulnerability analysis and exploit development
-- 🔗 **Tool Integration**: Combining tools for maximum operational efficiency
+### Documentation
 
-_Documentation and resources under active development._
+- 📖 **[Red Team Workflow](docs/methodologies/red-team-workflow.md)**: Complete methodology with MITRE ATT&CK mapping
+- 🔒 **[OPSEC Guidelines](docs/methodologies/opsec-guidelines.md)**: Operational security best practices
+- 🏗️ **[Lab Setup Guide](docs/setup/lab-environment.md)**: Build your own Red Team laboratory
+- 🗺️ **[Project Roadmap](ROADMAP.md)**: Development timeline and milestones
+- 📝 **[Changelog](CHANGELOG.md)**: Track project progress and releases
+
+### Learning Resources
+
+- 🎓 **Training Materials**: Hands-on labs and challenge environments (coming soon)
+- 📝 **Research Papers**: Vulnerability analysis and exploit development (coming soon)
+- 🔗 **Tool Integration**: Combining tools for maximum operational efficiency
+- 💡 **CTF Challenges**: Custom challenges using S1BGr0up tools (coming soon)
 
 ## 🤝 Contribution Workflow
 

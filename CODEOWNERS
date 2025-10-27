@@ -1,0 +1,38 @@
+# Code Owners for S1BGr0up
+# 
+# These owners will be requested for review when someone opens a pull request
+# that modifies files in these directories/files.
+#
+# More info: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default owner for everything in the repo
+* @ind4skylivey
+
+# Documentation
+/docs/ @ind4skylivey
+*.md @ind4skylivey
+
+# Security-critical files
+/SECURITY.md @ind4skylivey
+/.github/workflows/ @ind4skylivey
+/.gitignore @ind4skylivey
+/.gitleaksignore @ind4skylivey
+
+# Tools - require security review
+/tools/ @ind4skylivey
+
+# Configuration files
+*.yml @ind4skylivey
+*.yaml @ind4skylivey
+*.toml @ind4skylivey
+*.json @ind4skylivey
+
+# CI/CD workflows - require careful review
+/.github/workflows/*.yml @ind4skylivey
+
+# Pre-commit hooks
+/.pre-commit-config.yaml @ind4skylivey
+
+# Future: Additional reviewers can be added as team grows
+# /tools/reconnaissance/ @reconnaissance-team
+# /tools/exploitation/ @exploitation-team
