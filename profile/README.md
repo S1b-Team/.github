@@ -53,7 +53,8 @@ Our focus: **practical red team automation, web application security testing, ma
 
 | Project | Status | Tech Stack | Description |
 |---------|--------|------------|-------------|
-| **LaravelShield** | 🟢 Production | PHP, Laravel | Vulnerability scanner for Laravel applications detecting deserialization attacks, APP_KEY leakage, and injection flaws |
+| **Phantumbra** | 🟢 Production | Rust, Python | Completed adversary-emulation suite delivering stealth post-exploitation automation and resilient C2 tradecraft |
+| **Solstice** | 🟢 Production | Go, Bash, Terraform | Finished cloud-native attack surface lab for validating persistence techniques, IaC misconfigurations, and telemetry coverage |
 | **RedOps-Toolkit** | 🟡 Development | Python, Bash | Modular red team automation framework for penetration testing workflows |
 | **SecDevOps-Monitor** | 🟢 Production | PHP, Python | Security monitoring integration for CI/CD pipelines with Sentry and error tracking |
 | **MalDissect** | 🔵 Research | Python, Rust | Automated malware analysis pipeline with binary reverse engineering capabilities |
@@ -65,6 +66,8 @@ Our focus: **practical red team automation, web application security testing, ma
 - 🟡 **Development** - In active development
 - 🔵 **Research** - Research and planning phase
 - 🟣 **Learning** - Learning and experimentation
+
+Phantumbra and Solstice are already operational in live workflows, anchoring our push into stealth automation and cloud-resilient adversary simulation while the rest of the arsenal continues to mature around them.
 
 ---
 
