@@ -69,6 +69,8 @@ Our focus: **practical red team automation, web application security testing, ma
 
 Phantumbra and Solstice are already operational in live workflows, anchoring our push into stealth automation and cloud-resilient adversary simulation while the rest of the arsenal continues to mature around them.
 
+Note: This list includes key active projects. Some initiatives may be private and not publicly detailed here.
+
 ---
 
 ## 🛠️ Technical Capabilities
