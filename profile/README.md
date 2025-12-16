@@ -53,6 +53,7 @@ Our focus: **practical red team automation, web application security testing, ma
 
 | Project | Status | Tech Stack | Description |
 |---------|--------|------------|-------------|
+| [**Int3rceptor**](https://github.com/S1b-Team/int3rceptor) | 🟢 Production | Rust, Vue.js, TS, SQLite | Modern Burp Suite alternative: Rust HTTP/HTTPS proxy for pen-testing, real-time traffic analysis, fuzzing, & request repeating. |
 | **Phantumbra** | 🟢 Production | Rust, Python | Completed adversary-emulation suite delivering stealth post-exploitation automation and resilient C2 tradecraft |
 | **Solstice** | 🟢 Production | Go, Bash, Terraform | Finished cloud-native attack surface lab for validating persistence techniques, IaC misconfigurations, and telemetry coverage |
 | **RedOps-Toolkit** | 🟡 Development | Python, Bash | Modular red team automation framework for penetration testing workflows |
